@@ -28,6 +28,7 @@ const Home = () => {
   return products ? (
     <>
       <Nav />
+      
       <div className="w-[85%] p-10 pt-[5%] flex flex-wrap overflow-x-hidden overflow-y-auto justify-center">
         {filterProducts &&
           filterProducts.map((p, i) => (
